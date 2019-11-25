@@ -3,7 +3,7 @@ from selenium.webdriver.common.keys import Keys
 
 username = "YOUR EMAIL"
 password = "YOUR PASSWORD"
-driver = webdriver.Firefox()
+driver = webdriver.Chrome()
 driver.get("https://www.facebook.com")
 
 emailElement = driver.find_element_by_id()

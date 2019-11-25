@@ -2,6 +2,7 @@ import unittest
 
 from selenium.webdriver.firefox import webdriver  # what is the difference?
 from selenium import webdriver
+import time
 
 
 class GoogleTestCase(unittest.TestCase):
